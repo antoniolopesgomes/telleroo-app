@@ -1,0 +1,15 @@
+<div fxLayout="row" class="header">
+  <div fxFlex="200px" class="header__telleroo">
+    <div>
+      telleroo
+    </div>
+  </div>
+  <div fxFlex="grow" fxLayout="row" fxLayoutAlign="end center" fxLayoutGap="10px" class="header__actions">
+    <div class="ui-inputgroup">
+      <input type="text" pInputText placeholder="Username" (input)="searchInput$.next($event)">
+      <span class="ui-inputgroup-addon"><i class="pi pi-user"></i></span>
+    </div>
+    <div>{{username$ | async}}</div>
+    <div>user-menu</div> 
+  </div>
+</div>

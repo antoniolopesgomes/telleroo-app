@@ -1,0 +1,12 @@
+:host{
+    height: 100%;
+    .client-dashboard {
+        height: 100%;
+        &__header {
+            height: 100%;
+        }
+        &__body {
+            height: 100%;
+        }
+    }
+}

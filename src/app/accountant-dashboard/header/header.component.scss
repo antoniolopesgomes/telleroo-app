@@ -1,0 +1,16 @@
+:host {
+    .header {
+        border: 1px solid yellow;
+        &__header {
+            height: 20px;
+            // border: 1px solid yellow;
+        }
+        &__tools {
+            height: 20px;
+            // border: 1px solid green;
+        }
+    }
+    .fa-search::before {
+        content: "\f002";
+    }
+}
